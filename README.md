@@ -42,6 +42,14 @@ git clone https://github.com/bailey-lab/miplithon.git
 To use this pipeline, edit the yaml file using the comments in the yaml file.
 Some example values have been filled in.
 
+Next, run the code with
+```bash
+snakemake -s DR_analysis.smk --cores 4
+```
+You can optionally change the number of cores to a higher value for slightly
+faster running times (this increases the number of rules that can run
+simultaneously but does not affect the running time for any individual rule).
+
 ## Results
 
 alternate_freqs.csv gives the unfiltered within sample allele frequencies of
