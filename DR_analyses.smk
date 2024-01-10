@@ -14,10 +14,10 @@ rule all:
 		all_summary='prevalences/'+config['summarize_by']+':all_3_1_summary.tsv',
 		threshold_summary='prevalences_by_threshold/10_3_3_summary.tsv',
 		background_mutations='background_mutations/561_on_Asian_backgrounds.tsv',
-		D_samples='prevalences/mdr1-Asp1246_3_1_cov.txt'
+		D_samples='prevalences/mdr1-Asp1246_3_1_cov.txt',
 		output_file='alternate_freqs.csv'
 
-rule simple wsaf:
+rule simple_wsaf:
 	'''
 	generates a simple table of within sample allele frequency (wsaf) for each
 	mutation in each sample.
