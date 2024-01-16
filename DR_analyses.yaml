@@ -1,5 +1,5 @@
-variant_folder: /nfs/jbailey5/baileyweb/asimkin/aapter_test/run_230508_mipstoNanopore_P2/vcf_to_table
-metadata_sheet: /nfs/jbailey5/baileyweb/asimkin/aapter_test/run_230508_mipstoNanopore_P2/miplithon/manuscript_metadata_attempted_samples.csv
+variant_folder: /nfs/jbailey5/baileyweb/asimkin/msmt_projects/msmt_longitudinal_DR/msmt_2022_DR
+metadata_sheet: /nfs/jbailey5/baileyweb/asimkin/msmt_projects/msmt_longitudinal_DR/msmt_2022_DR/MSMT_2022_METADATA.csv
 heirarchy: Region:District:HF_name
 sample_column_name: Sample_ID
 summarize_by: Region
@@ -142,15 +142,15 @@ background_mutations:
 #intersecting these mutations.
 intersections:
   'IRNL_site:all_3_1':
-    - dhfr-ts-Asn51Ile_site:all_3_1
-    - dhfr-ts-Cys59Arg_site:all_3_1
-    - dhfr-ts-Ser108Asn_site:all_3_1
-    - dhfr-ts-Ile164Leu_site:all_3_1
+    - dhfr-ts-Asn51Ile_Region:all_3_1
+    - dhfr-ts-Cys59Arg_Region:all_3_1
+    - dhfr-ts-Ser108Asn_Region:all_3_1
+    - dhfr-ts-Ile164Leu_Region:all_3_1
   'IRNGEG_site:all_3_1':
-    - dhfr-ts-Asn51Ile_site:all_3_1
-    - dhfr-ts-Cys59Arg_site:all_3_1
-    - dhfr-ts-Ser108Asn_site:all_3_1
-    - dhps-Ala437Gly_site:all_3_1
-    - dhps-Lys540Glu_site:all_3_1
-    - dhps-Ala581Gly_site:all_3_1
+    - dhfr-ts-Asn51Ile_Region:all_3_1
+    - dhfr-ts-Cys59Arg_Region:all_3_1
+    - dhfr-ts-Ser108Asn_Region:all_3_1
+    - dhps-Ala437Gly_Region:all_3_1
+    - dhps-Lys540Glu_Region:all_3_1
+    - dhps-Ala581Gly_Region:all_3_1
 
