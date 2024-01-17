@@ -9,13 +9,23 @@ variant_folder=config['variant_folder']
 #		dhps='dhps_prevalences_by_region.tsv',
 #		k13_kagera='k13_kagera_prevalences_by_district.tsv'
 
+def get_summaries(mutation_list):
+	summaries=set([])
+	for mutation in mutation_list:
+		summaries.add('summaries/'+'_'.join(mutation.split('_')[1:]))
+	return list(summaries)
+
+prevalence_summaries=get_summaries(config['mutations'])
+threshold_summaries=get_summaries(config['prevalence_thresholds'])
+
+
 rule all:
 	input:
-		all_summary='prevalences/'+config['summarize_by']+':all_3_1_summary.tsv',
-		threshold_summary='prevalences_by_threshold/10_3_3_summary.tsv',
+		prevalence=expand('{prevalence}_prevalence_summary.tsv', prevalence=prevalence_summaries),
+		threshold=expand('{threshold}_threshold_summary.tsv', threshold=threshold_summaries),
 		background_mutations='background_mutations/561_on_Asian_backgrounds.tsv',
 		D_samples='prevalences/mdr1-Asp1246_3_1_cov.txt',
-		output_file='alternate_freqs.csv'
+		wsaf='summaries/alternate_freqs.csv'
 
 rule simple_wsaf:
 	'''
@@ -28,7 +38,8 @@ rule simple_wsaf:
 	params:
 		UMI_suffix=config['UMI_suffix']
 	output:
-		wsaf='alternate_freqs.csv'
+		wsaf='summaries/alternate_freqs.csv',
+		frequency_heatmap='summaries/frequency_heatmap.html'
 	script:
 		'scripts/calculate_frequencies.py'
 
@@ -107,7 +118,7 @@ rule make_table_named_mutations:
 		heirarchy=config['heirarchy'],
 		sample_column=config['sample_column_name']
 	output:
-		summary='prevalences/{region}_{cov}_{alt}_summary.tsv'
+		summary='summaries/{region}_{cov}_{alt}_prevalence_summary.tsv'
 	script:
 		'scripts/make_table.py'
 
@@ -146,7 +157,7 @@ rule make_table_threshold_prevalences:
 		sample_column=config['sample_column_name'],
 		summarize_by=config['summarize_by']
 	output:
-		summary='prevalences_by_threshold/{region}_{cov}_{alt}_summary.tsv'
+		summary='summaries/{region}_{cov}_{alt}_threshold_summary.tsv'
 	script:
 		'scripts/make_table_threshold_prevalences.py'
 '''

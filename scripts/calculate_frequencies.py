@@ -8,7 +8,7 @@ alternate=snakemake.input.alt_counts
 umi_suffix=snakemake.params.UMI_suffix
 
 output_file=open(snakemake.output.wsaf, 'w')
-
+frequency_heatmap=snakemake.output.frequency_heatmap
 
 def get_counts(input_file):
 	count_dict={}
@@ -62,4 +62,4 @@ for sample_number, sample in enumerate(ref_counts):
 	graphing_list.append(graphing_line)
 	output_file.write(','.join(output_line)+'\n')
 
-plot_heatmap(graphing_list, mutations, samples, 'mutations', 'samples', 'mutation frequency', 'frequency_heatmap.html')
+plot_heatmap(graphing_list, mutations, samples, 'mutations', 'samples', 'mutation frequency', frequency_heatmap)
