@@ -157,7 +157,7 @@ rule make_table_threshold_prevalences:
 		sample_column=config['sample_column_name'],
 		summarize_by=config['summarize_by']
 	output:
-		summary='summaries/{region}_{cov}_{alt}_threshold_summary.tsv'
+		summary='summaries/{cov}_{alt}_{sample_count}_threshold_summary.tsv'
 	script:
 		'scripts/make_table_threshold_prevalences.py'
 '''

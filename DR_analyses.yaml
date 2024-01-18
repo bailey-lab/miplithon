@@ -2,7 +2,7 @@ variant_folder: /nfs/jbailey5/baileyweb/asimkin/msmt_projects/msmt_longitudinal_
 metadata_sheet: /nfs/jbailey5/baileyweb/asimkin/msmt_projects/msmt_longitudinal_DR/msmt_2022_DR/MSMT_2022_METADATA.csv
 heirarchy: Region:District:HF_name
 sample_column_name: Sample_ID
-summarize_by: Region
+summarize_by: District
 UMI_suffix: '' #because the two suffixes are the same as each other, we don't
 #need to remove anything
 
