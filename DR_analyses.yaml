@@ -112,7 +112,6 @@ mutations:
 #across the entire dataset, the F mutation below needs to be applied that way
 #also
 F_mutation: mdr1-Tyr184Phe_Region:all_3_1
-'mdr1-Asp1246_3_1'
 
 prevalence_thresholds:
   - PF3D7-1322700_10_3_3
