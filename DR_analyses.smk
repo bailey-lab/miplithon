@@ -104,7 +104,7 @@ rule check_background_mutations:
 	'''
 	input:
 		background_mutations=expand('prevalences/{mutation}_alt_samples.txt', mutation=config['background_mutations']),
-		foreground_mutation='prevalences/k13-Arg561His_'+config['summarize_by']+':all_3_1_alt_samples.txt'
+		foreground_mutation='prevalences/'+config['foreground_mutation']+'_alt_samples.txt'
 	output:
 		background_mutations='background_mutations/561_on_Asian_backgrounds.tsv'
 	script:
@@ -131,8 +131,8 @@ rule parse_NFD:
 	input:
 		UMI_counts='counts/all_AA_counts.pkl',
 		metadata=config['metadata_sheet'],
-		F_alt='prevalences/mdr1-Tyr184Phe_'+config['summarize_by']+':all_3_1_alt_samples.txt',
-		F_cov='prevalences/mdr1-Tyr184Phe_'+config['summarize_by']+':all_3_1_cov_samples.txt'
+		F_alt='prevalences/'+config['F_mutation']+'_alt_samples.txt',
+		F_cov='prevalences/'+config['F_mutation']+'_cov_samples.txt'
 	params:
 		N_mutation='mdr1-Asn86_3_1',
 		D_mutation='mdr1-Asp1246_3_1',

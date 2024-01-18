@@ -15,96 +15,105 @@ UMI_suffix: '' #because the two suffixes are the same as each other, we don't
 #coverage of 3 and an alternate count of 1 for the mutation dhfr-ts-Cys59Arg,
 #you would enter dhfr-ts-Cys59Arg_site:all_3_1 as the mutation name.
 mutations:
-  - dhfr-ts-Cys59Arg_Region:all_3_1
-  - dhps-Ser436Phe_Region:all_3_1
-  - mdr1-Asn86Phe_Region:all_3_1
-  - dhps-Lys540Glu_Region:all_3_1
-  - dhfr-ts-Asn51Ile_Region:all_3_1
-  - dhps-Ile431Val_Region:all_3_1
-  - crt-Ile356Thr_Region:all_3_1
-  - crt-Ala220Ser_Region:all_3_1
-  - dhps-Ala613Ser_Region:all_3_1
-  - mdr1-Asp1246Tyr_Region:all_3_1
-  - k13-Pro574Leu_Region:all_3_1
-  - cytb-Val284Lys_Region:all_3_1
-  - mdr1-Ser1034Cys_Region:all_3_1
-  - k13-Cys469Tyr_Region:all_3_1
-  - pph-Val1157Leu_Region:all_3_1
-  - mcp-Asn252Asp_Region:all_3_1
-  - k13-Gly449Ala_Region:all_3_1
-  - fd-Asp193Tyr_Region:all_3_1
-  - k13-Cys580Tyr_Region:all_3_1
-  - k13-Asn537Asp_Region:all_3_1
-  - cytb-Tyr268Ser_Region:all_3_1
-  - crt-Gln271Glu_Region:all_3_1
-  - dhfr-ts-Ser108Thr_Region:all_3_1
-  - k13-Ala675Val_Region:all_3_1
-  - k13-Cys469Phe_Region:all_3_1
-  - k13-Pro527His_Region:all_3_1
-  - dhfr-ts-Ser108Asn_Region:all_3_1
-  - dhfr-ts-Ile164Leu_Region:all_3_1
-  - PF3D7-1322700-Thr236Ile_Region:all_3_1
-  - k13-Val568Gly_Region:all_3_1
-  - crt-His97Leu_Region:all_3_1
-  - crt-Met74Ile_Region:all_3_1
-  - dhps-Ala437Gly_Region:all_3_1
-  - crt-Ile218Phe_Region:all_3_1
-  - crt-Cys72Ser_Region:all_3_1
-  - crt-Cys101Phe_Region:all_3_1
-  - Sec14-Asn615Asp_Region:all_3_1
-  - k13-Arg622Ile_Region:all_3_1
-  - k13-Pro553Leu_Region:all_3_1
-  - PI4K-Ser915Gly_Region:all_3_1
-  - k13-Pro441Leu_Region:all_3_1
-  - k13-Asn458Tyr_Region:all_3_1
-  - k13-Ile543Thr_Region:all_3_1
-  - mdr1-Asn86Tyr_Region:all_3_1
-  - mdr1-Asn1042Asp_Region:all_3_1
-  - dhps-Ser436Ala_Region:all_3_1
-  - k13-Arg539Thr_Region:all_3_1
-  - dhfr-ts-Ala16Val_Region:all_3_1
-  - k13-Ala481Val_Region:all_3_1
-  - cytb-Tyr268Asn_Region:all_3_1
-  - crt-Asn75Glu_Region:all_3_1
-  - k13-Phe446Ile_Region:all_3_1
-  - k13-Asn537Ile_Region:all_3_1
-  - atp6-Glu431Lys_Region:all_3_1
-  - mdr2-Thr484Ile_Region:all_3_1
-  - atp6-Leu263Glu_Region:all_3_1
-  - crt-Thr93Ser_Region:all_3_1
-  - k13-Met476Ile_Region:all_3_1
-  - k13-Arg515Lys_Region:all_3_1
-  - cytb-Tyr268Cys_Region:all_3_1
-  - crt-Val73Leu_Region:all_3_1
-  - atp6-Ser769Asn_Region:all_3_1
-  - PF3D7-1451200-Asn71Asn_Region:all_3_1
-  - k13-Gly538Val_Region:all_3_1
-  - crt-Phe145Ile_Region:all_3_1
-  - crt-Lys76Thr_Region:all_3_1
-  - mdr1-Tyr184Phe_Region:all_3_1
-  - arps10-Val127Met_Region:all_3_1
-  - k13-Arg561His_Region:all_3_1
+  - dhfr-ts-Cys59Arg_Region:Kagera_3_1
+  - dhps-Ser436Phe_Region:Kagera_3_1
+  - mdr1-Asn86Phe_Region:Kagera_3_1
+  - dhps-Lys540Glu_Region:Kagera_3_1
+  - dhfr-ts-Asn51Ile_Region:Kagera_3_1
+  - dhps-Ile431Val_Region:Kagera_3_1
+  - crt-Ile356Thr_Region:Kagera_3_1
+  - crt-Ala220Ser_Region:Kagera_3_1
+  - dhps-Ala613Ser_Region:Kagera_3_1
+  - mdr1-Asp1246Tyr_Region:Kagera_3_1
+  - k13-Pro574Leu_Region:Kagera_3_1
+  - cytb-Val284Lys_Region:Kagera_3_1
+  - mdr1-Ser1034Cys_Region:Kagera_3_1
+  - k13-Cys469Tyr_Region:Kagera_3_1
+  - pph-Val1157Leu_Region:Kagera_3_1
+  - mcp-Asn252Asp_Region:Kagera_3_1
+  - k13-Gly449Ala_Region:Kagera_3_1
+  - fd-Asp193Tyr_Region:Kagera_3_1
+  - k13-Cys580Tyr_Region:Kagera_3_1
+  - k13-Asn537Asp_Region:Kagera_3_1
+  - cytb-Tyr268Ser_Region:Kagera_3_1
+  - crt-Gln271Glu_Region:Kagera_3_1
+  - dhfr-ts-Ser108Thr_Region:Kagera_3_1
+  - k13-Ala675Val_Region:Kagera_3_1
+  - k13-Cys469Phe_Region:Kagera_3_1
+  - k13-Pro527His_Region:Kagera_3_1
+  - dhfr-ts-Ser108Asn_Region:Kagera_3_1
+  - dhfr-ts-Ile164Leu_Region:Kagera_3_1
+  - PF3D7-1322700-Thr236Ile_Region:Kagera_3_1
+  - k13-Val568Gly_Region:Kagera_3_1
+  - crt-His97Leu_Region:Kagera_3_1
+  - crt-Met74Ile_Region:Kagera_3_1
+  - dhps-Ala437Gly_Region:Kagera_3_1
+  - crt-Ile218Phe_Region:Kagera_3_1
+  - crt-Cys72Ser_Region:Kagera_3_1
+  - crt-Cys101Phe_Region:Kagera_3_1
+  - Sec14-Asn615Asp_Region:Kagera_3_1
+  - k13-Arg622Ile_Region:Kagera_3_1
+  - k13-Pro553Leu_Region:Kagera_3_1
+  - PI4K-Ser915Gly_Region:Kagera_3_1
+  - k13-Pro441Leu_Region:Kagera_3_1
+  - k13-Asn458Tyr_Region:Kagera_3_1
+  - k13-Ile543Thr_Region:Kagera_3_1
+  - mdr1-Asn86Tyr_Region:Kagera_3_1
+  - mdr1-Asn1042Asp_Region:Kagera_3_1
+  - dhps-Ser436Ala_Region:Kagera_3_1
+  - k13-Arg539Thr_Region:Kagera_3_1
+  - dhfr-ts-Ala16Val_Region:Kagera_3_1
+  - k13-Ala481Val_Region:Kagera_3_1
+  - cytb-Tyr268Asn_Region:Kagera_3_1
+  - crt-Asn75Glu_Region:Kagera_3_1
+  - k13-Phe446Ile_Region:Kagera_3_1
+  - k13-Asn537Ile_Region:Kagera_3_1
+  - atp6-Glu431Lys_Region:Kagera_3_1
+  - mdr2-Thr484Ile_Region:Kagera_3_1
+  - atp6-Leu263Glu_Region:Kagera_3_1
+  - crt-Thr93Ser_Region:Kagera_3_1
+  - k13-Met476Ile_Region:Kagera_3_1
+  - k13-Arg515Lys_Region:Kagera_3_1
+  - cytb-Tyr268Cys_Region:Kagera_3_1
+  - crt-Val73Leu_Region:Kagera_3_1
+  - atp6-Ser769Asn_Region:Kagera_3_1
+  - PF3D7-1451200-Asn71Asn_Region:Kagera_3_1
+  - k13-Gly538Val_Region:Kagera_3_1
+  - crt-Phe145Ile_Region:Kagera_3_1
+  - crt-Lys76Thr_Region:Kagera_3_1
+  - mdr1-Tyr184Phe_Region:Kagera_3_1
+  - arps10-Val127Met_Region:Kagera_3_1
   - k13-Arg561His_Region:Kagera_3_1
-  - dhps-Ala581Gly_Region:all_3_1
-  - k13-Tyr493His_Region:all_3_1
-  - crt-Met343Leu_Region:all_3_1
-  - pib7-Cys1484Phe_Region:all_3_1
-  - dhps-Ala613Thr_Region:all_3_1
-  - crt-Gly353Val_Region:all_3_1
-  - atp6-Ala623Glu_Region:all_3_1
-  - cytb-Met133Ile_Region:all_3_1
-  - crt-Arg371Ile_Region:all_3_1
-  - crt-His97Tyr_Region:all_3_1
-  - crt-Asn326Ser_Region:all_3_1
-  - Pfap2mu-Ser160Asn_Region:all_3_1
-  - kelch10-Pro623Thr_Region:all_3_1
-  - exo-Glu415Gly_Region:all_3_1
-  - fd-Asp193Tyr_Region:all_3_1 #known Asian mutation
-  - mdr2-Thr484Ile_Region:all_3_1 #known Asian mutation
-  - pib7-Cys1484Phe_Region:all_3_1 #known Asian mutation
-  - pph-Val1157Leu_Region:all_3_1 #known Asian mutation
-  - crt-Asn326Ser_Region:all_3_1 #known Asian mutation
-  - crt-Ile356Thr_Region:all_3_1 #known Asian mutation
+  - k13-Arg561His_Region:all_3_1
+  - dhps-Ala581Gly_Region:Kagera_3_1
+  - k13-Tyr493His_Region:Kagera_3_1
+  - crt-Met343Leu_Region:Kagera_3_1
+  - pib7-Cys1484Phe_Region:Kagera_3_1
+  - dhps-Ala613Thr_Region:Kagera_3_1
+  - crt-Gly353Val_Region:Kagera_3_1
+  - atp6-Ala623Glu_Region:Kagera_3_1
+  - cytb-Met133Ile_Region:Kagera_3_1
+  - crt-Arg371Ile_Region:Kagera_3_1
+  - crt-His97Tyr_Region:Kagera_3_1
+  - crt-Asn326Ser_Region:Kagera_3_1
+  - Pfap2mu-Ser160Asn_Region:Kagera_3_1
+  - kelch10-Pro623Thr_Region:Kagera_3_1
+  - exo-Glu415Gly_Region:Kagera_3_1
+  - fd-Asp193Tyr_Region:Kagera_3_1 #known Asian mutation for below
+  - mdr2-Thr484Ile_Region:Kagera_3_1 #known Asian mutation for below
+  - pib7-Cys1484Phe_Region:Kagera_3_1 #known Asian mutation for below
+  - pph-Val1157Leu_Region:Kagera_3_1 #known Asian mutation for below
+  - crt-Asn326Ser_Region:Kagera_3_1 #known Asian mutation for below
+  - crt-Ile356Thr_Region:Kagera_3_1 #known Asian mutation for below
+  - mdr1-Tyr184Phe_Region:all_3_1 #F mutation for NFD below
+
+#NFD_mutations: these are N, F, and D mutations to examine. These need to also
+#be listed in the mutations section above. Because N and D mutations are applied
+#across the entire dataset, the F mutation below needs to be applied that way
+#also
+F_mutation: mdr1-Tyr184Phe_Region:all_3_1
+'mdr1-Asp1246_3_1'
+
 prevalence_thresholds:
   - PF3D7-1322700_10_3_3
   - PF3D7-1451200_10_3_3
@@ -128,30 +137,30 @@ prevalence_thresholds:
   - pib7_10_3_3
   - pph_10_3_3
 
-#these are known mutations. In this case, smk file is hardcoded to ask how many
-#K13 R561H mutations are found in samples that also have one of these known
-#Asian mutations
+#this block looks to see if any samples that have a foreground mutation also
+#have some background mutations of interest. The foreground mutation needs to
+#also be in the mutations list above.
+foreground_mutation: k13-Arg561His_Region:Kagera_3_1
 background_mutations:
-  - crt-Asn326Ser_Region:all_3_1
-  - crt-Ile356Thr_Region:all_3_1
-  - mdr2-Thr484Ile_Region:all_3_1
-  - pph-Val1157Leu_Region:all_3_1
-  - pib7-Cys1484Phe_Region:all_3_1
-  - fd-Asp193Tyr_Region:all_3_1
+  - crt-Asn326Ser_Region:Kagera_3_1
+  - crt-Ile356Thr_Region:Kagera_3_1
+  - mdr2-Thr484Ile_Region:Kagera_3_1
+  - pph-Val1157Leu_Region:Kagera_3_1
+  - pib7-Cys1484Phe_Region:Kagera_3_1
+  - fd-Asp193Tyr_Region:Kagera_3_1
 
 #this is not currently implemented. Future versions will add a rule for
 #intersecting these mutations.
 intersections:
   'IRNL_site:all_3_1':
-    - dhfr-ts-Asn51Ile_Region:all_3_1
-    - dhfr-ts-Cys59Arg_Region:all_3_1
-    - dhfr-ts-Ser108Asn_Region:all_3_1
-    - dhfr-ts-Ile164Leu_Region:all_3_1
+    - dhfr-ts-Asn51Ile_Region:Kagera_3_1
+    - dhfr-ts-Cys59Arg_Region:Kagera_3_1
+    - dhfr-ts-Ser108Asn_Region:Kagera_3_1
+    - dhfr-ts-Ile164Leu_Region:Kagera_3_1
   'IRNGEG_site:all_3_1':
-    - dhfr-ts-Asn51Ile_Region:all_3_1
-    - dhfr-ts-Cys59Arg_Region:all_3_1
-    - dhfr-ts-Ser108Asn_Region:all_3_1
-    - dhps-Ala437Gly_Region:all_3_1
-    - dhps-Lys540Glu_Region:all_3_1
-    - dhps-Ala581Gly_Region:all_3_1
-
+    - dhfr-ts-Asn51Ile_Region:Kagera_3_1
+    - dhfr-ts-Cys59Arg_Region:Kagera_3_1
+    - dhfr-ts-Ser108Asn_Region:Kagera_3_1
+    - dhps-Ala437Gly_Region:Kagera_3_1
+    - dhps-Lys540Glu_Region:Kagera_3_1
+    - dhps-Ala581Gly_Region:Kagera_3_1
