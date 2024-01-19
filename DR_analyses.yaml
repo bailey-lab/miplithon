@@ -21,7 +21,6 @@ mutations:
   - dhps-Lys540Glu_Region:Kagera_3_1
   - dhfr-ts-Asn51Ile_Region:Kagera_3_1
   - dhps-Ile431Val_Region:Kagera_3_1
-  - crt-Ile356Thr_Region:Kagera_3_1
   - crt-Ala220Ser_Region:Kagera_3_1
   - dhps-Ala613Ser_Region:Kagera_3_1
   - mdr1-Asp1246Tyr_Region:Kagera_3_1
@@ -29,10 +28,8 @@ mutations:
   - cytb-Val284Lys_Region:Kagera_3_1
   - mdr1-Ser1034Cys_Region:Kagera_3_1
   - k13-Cys469Tyr_Region:Kagera_3_1
-  - pph-Val1157Leu_Region:Kagera_3_1
   - mcp-Asn252Asp_Region:Kagera_3_1
   - k13-Gly449Ala_Region:Kagera_3_1
-  - fd-Asp193Tyr_Region:Kagera_3_1
   - k13-Cys580Tyr_Region:Kagera_3_1
   - k13-Asn537Asp_Region:Kagera_3_1
   - cytb-Tyr268Ser_Region:Kagera_3_1
@@ -69,7 +66,6 @@ mutations:
   - k13-Phe446Ile_Region:Kagera_3_1
   - k13-Asn537Ile_Region:Kagera_3_1
   - atp6-Glu431Lys_Region:Kagera_3_1
-  - mdr2-Thr484Ile_Region:Kagera_3_1
   - atp6-Leu263Glu_Region:Kagera_3_1
   - crt-Thr93Ser_Region:Kagera_3_1
   - k13-Met476Ile_Region:Kagera_3_1
@@ -82,30 +78,28 @@ mutations:
   - crt-Phe145Ile_Region:Kagera_3_1
   - crt-Lys76Thr_Region:Kagera_3_1
   - mdr1-Tyr184Phe_Region:Kagera_3_1
+  - mdr1-Tyr184Phe_Region:all_3_1
   - arps10-Val127Met_Region:Kagera_3_1
   - k13-Arg561His_Region:Kagera_3_1
   - k13-Arg561His_Region:all_3_1
   - dhps-Ala581Gly_Region:Kagera_3_1
   - k13-Tyr493His_Region:Kagera_3_1
   - crt-Met343Leu_Region:Kagera_3_1
-  - pib7-Cys1484Phe_Region:Kagera_3_1
   - dhps-Ala613Thr_Region:Kagera_3_1
   - crt-Gly353Val_Region:Kagera_3_1
   - atp6-Ala623Glu_Region:Kagera_3_1
   - cytb-Met133Ile_Region:Kagera_3_1
   - crt-Arg371Ile_Region:Kagera_3_1
   - crt-His97Tyr_Region:Kagera_3_1
-  - crt-Asn326Ser_Region:Kagera_3_1
   - Pfap2mu-Ser160Asn_Region:Kagera_3_1
   - kelch10-Pro623Thr_Region:Kagera_3_1
   - exo-Glu415Gly_Region:Kagera_3_1
-  - fd-Asp193Tyr_Region:Kagera_3_1 #known Asian mutation for below
-  - mdr2-Thr484Ile_Region:Kagera_3_1 #known Asian mutation for below
-  - pib7-Cys1484Phe_Region:Kagera_3_1 #known Asian mutation for below
-  - pph-Val1157Leu_Region:Kagera_3_1 #known Asian mutation for below
-  - crt-Asn326Ser_Region:Kagera_3_1 #known Asian mutation for below
-  - crt-Ile356Thr_Region:Kagera_3_1 #known Asian mutation for below
-  - mdr1-Tyr184Phe_Region:all_3_1 #F mutation for NFD below
+  - fd-Asp193Tyr_Region:Kagera_3_1 #known Asian mutation
+  - mdr2-Thr484Ile_Region:Kagera_3_1 #known Asian mutation
+  - pib7-Cys1484Phe_Region:Kagera_3_1 #known Asian mutation
+  - pph-Val1157Leu_Region:Kagera_3_1 #known Asian mutation
+  - crt-Asn326Ser_Region:Kagera_3_1 #known Asian mutation
+  - crt-Ile356Thr_Region:Kagera_3_1 #known Asian mutation
 
 #NFD_mutations: these are N, F, and D mutations to examine. These need to also
 #be listed in the mutations section above. Because N and D mutations are applied
